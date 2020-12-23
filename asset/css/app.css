@@ -1,0 +1,80 @@
+#section-bg {
+  position: relative;
+  padding: 90px 0 120px;
+}
+.absolute-text {
+  margin-bottom: 12px;
+}
+.section-padding {
+  background: url(../img/section-padding-img.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 59%;
+  z-index: -1;
+}
+.section-padding:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 225, 255);
+  content: "";
+  opacity: 0.5;
+}
+.contact-form input,
+.contact-form textarea,
+input[type="submit"] {
+  outline: none;
+  border: none;
+}
+.contact-form input:hover,
+.contact-form textarea:hover,
+input[type="submit"]:hover {
+  outline: none;
+  border: none;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 6px;
+  margin: 0 0 20px;
+  color: rgb(100, 99, 99);
+}
+.contact-form input[type="submit"] {
+  padding: 10px 0;
+  width: 114px;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #ddd;
+  color: #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.appointment-text {
+  padding: 10px 0 0 54px;
+}
+.appointment-text h2 {
+  color: #333;
+}
+.boxed-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #ddd;
+  color: #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.boxed-btn:hover {
+  color: #333;
+}
